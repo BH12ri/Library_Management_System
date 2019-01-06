@@ -1,0 +1,201 @@
+
+body{
+	background:url(../img/bckgrd.jpg);
+	background-repeat: no-repeat;
+	background-size:100%;
+}
+.web_info{
+	font-size:20px;
+	margin-left: 250px;
+	margin-right: 250px;
+	text-align:justify;
+	color:white;
+	}
+
+.box figcaption a{
+	padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    transition: 0.3s;
+    background-color:#77cc6d;
+}
+.box figcaption a:hover {
+    color: #f1f1f1;
+}
+
+.box{
+		width: 13em;
+		height: 13em;
+		margin: 1em;
+		border: 0.1em solid white;
+		transition: 1s;
+		text-align: center;
+		position:relative;
+		border-radius: .2em;
+	}
+.image
+	{
+		height: 13em;
+		width: 100%;
+		box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.4), 0 8px 22px 0 rgba(0, 0, 0, 0.22);
+		border-radius:.2em;
+	}
+.image:hover{
+	opacity: 0.85;
+	background-color: #efeff5;
+        visibility: visible;
+		filter: none;
+        color: black;
+	font-weight: 550;}
+	
+.box:hover{
+	
+		z-index: 1;
+		background-color:white;
+        border-color: white;
+		}
+.row {
+	position: center;
+    display: flex;
+    padding: .8em .8em;
+    margin:0 1em 0 1em;
+	margin: auto;
+	width: 50%;
+    }
+.text{ 	
+		position: absolute;
+		padding-top: .2em;
+		top: 79%;
+		text-align: center;
+		font-weight:550;
+		font-size: 1.5vw;
+		color: white;
+		width: 100%;
+		font-family: Clarenden Lt BT, times new roman;
+	    color: white;
+        background: #77cc6d;
+        height: 1.4em;
+        border-color: rgba(255,255,255,0.3);
+        border-radius: .2em;
+	}
+img {
+  max-width: 100%;
+}
+.animated {
+            background-image: url(/css/images/logo.png);
+            background-repeat: no-repeat;
+            background-position: left top;
+            padding-top:25px;
+            margin-bottom:60px;
+            -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+         }
+		 
+		  @-webkit-keyframes bounceInUp {
+            0% {
+               opacity: 0;
+               -webkit-transform: translateY(2000px);
+            }
+            60% {
+               opacity: 1;
+               -webkit-transform: translateY(-30px);
+            }
+            80% {
+               -webkit-transform: translateY(10px);
+            }
+            100% {
+               -webkit-transform: translateY(0);
+            }
+         }
+         
+         @keyframes bounceInUp {
+            0% {
+               opacity: 0;
+               transform: translateY(2000px);
+            }
+            60% {
+               opacity: 1;
+               transform: translateY(-30px);
+            }
+            80% {
+               transform: translateY(10px);
+            }
+            100% {
+               transform: translateY(0);
+            }
+         }
+         
+         .bounceInUp {
+            -webkit-animation-name: bounceInUp;
+            animation-name: bounceInUp;
+         }
+		 
+@media screen and (max-width: 1000px){
+.box{
+		width: 13em;
+		height: 13em;
+		margin: auto;
+		border: 0.1em solid white;
+		transition: 1s;
+		text-align: center;
+		position:relative;
+		border-radius: .2em;
+	}
+	 
+	.text{ 	
+		position: absolute;
+		padding-top: .2em;
+		padding-bottom: .1em;
+		top: 75%;
+		text-align: center;
+		font-weight:550;
+		font-size: 3vw;
+		color: white;
+		z-index: 2;
+		width: 100%;
+		font-family: Clarenden Lt BT, times new roman;
+	color: white;
+background: #77cc6d;
+height: 1.5em;
+border-color: rgba(255,255,255,0.3);
+border-radius: .2em;
+	} 
+}
+@media screen and (max-width: 768px) {
+	 
+	 .box{
+		width: 13em;
+		height: 13em;
+		margin: auto;
+		margin-left: -3em;
+		border: 0.1em solid white;
+		transition: 1s;
+		text-align: center;
+		position:relative;
+		border-radius: .2em;
+	}
+	 
+	.text{ 	
+		position: absolute;
+		padding-top: .35em;
+		padding-bottom: .1em;
+		top: 75%;
+		text-align: center;
+		font-weight:550;
+		font-size: 4vw;
+		color: white;
+		width: 100%;
+		font-family: Clarenden Lt BT, times new roman;
+	color: white;
+background: #77cc6d;
+height: 2em;
+border-color: rgba(255,255,255,0.3);
+border-radius: .2em;
+	} 
+	 p{
+		 margin-top:6px;
+	 }
+ }
